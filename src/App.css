@@ -48,10 +48,11 @@ body {
     width: fit-content;
     padding-top: 1rem;
     padding-left: 3rem;
+    
+    
 }
 .hello .typed1 {
     font-size: 75px;
-    width: fit-content;
 }
 
 .hello .typed2 {
@@ -62,7 +63,6 @@ body {
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
-    font-size: 1.6rem;
     width: 0;
     animation: 
       typing 1s steps(10, end) forwards,
@@ -73,10 +73,9 @@ body {
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
-    font-size: 1.6rem;
     width: 0;
     animation: 
-      typing 2s steps(20, end) forwards,
+      typing 2s steps(25, end) forwards,
       blink 1s infinite;
     animation-delay: 1s;
 }

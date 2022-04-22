@@ -18,7 +18,6 @@ export const App = () => {
       <h1 class = "typed1">Hello</h1>
     </div>
     <div class = "hello">
-    <br></br>
       <h1 class = "typed2">My name is Ayden Albertsen</h1>
     </div>
     
