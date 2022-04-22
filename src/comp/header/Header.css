@@ -1,21 +1,3 @@
-/*body{
-  background:#000;
-  color:#fff;
-  text-align:center;
-  font-family:"Trebuchet MS";
-  text-transform:uppercase;
-  padding-top:2em;
-  
-  background: linear-gradient(
-    to bottom,
-    #000,
-    #000 50%,
-    #222 50%,
-    #222
-  );
-  background-size: 100% 4px;
-  animation: gradientMove 200ms ease infinite;
-}*/
 
 .name {
     color: white;
