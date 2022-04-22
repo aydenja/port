@@ -1,0 +1,106 @@
+.hello {
+    width: fit-content;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    
+    
+}
+.hello .typed1 {
+    font-size: 75px;
+}
+
+.hello .typed2 {
+    font-size: 55px;
+}
+
+.work{
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+
+hr.solid {
+    border-top: 3px solid white;
+    width: 200px;
+    margin: auto;
+}
+
+hr.solidb {
+    border-top: 3px solid white;
+    width: 300px;
+    margin: auto;
+}
+
+.work *{
+    text-align: center;
+}
+.work h1{
+    font-size: 50px;
+}
+
+.skills li {
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.proj {
+    padding-top: 4rem;
+}
+
+.projul li {
+    text-align: center;
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.text{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 95%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    max-width: 600px;
+}
+.img {
+    width: 100%;
+}
+
+.img2 {
+    width: 90%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.typed1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+      typing 1s steps(10, end) forwards,
+      blink 1s infinite;
+}
+
+.typed2{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+      typing 2s steps(25, end) forwards,
+      blink 1s infinite;
+    animation-delay: 1s;
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 101% }
+  }
+
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }

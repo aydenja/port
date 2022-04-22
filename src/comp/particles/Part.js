@@ -26,7 +26,7 @@ function Part() {
                 "autoPlay": true,
                 "background": {
                   "color": {
-                    "value": "#202020"
+                    "value": "#101010"
                   },
                   "position": "50% 50%",
                   "repeat": "no-repeat",

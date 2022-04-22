@@ -42,50 +42,6 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    background: #101010;
 }
 
-.hello {
-    width: fit-content;
-    padding-top: 1rem;
-    padding-left: 3rem;
-    
-    
-}
-.hello .typed1 {
-    font-size: 75px;
-}
-
-.hello .typed2 {
-    font-size: 55px;
-}
-
-.typed1{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    width: 0;
-    animation: 
-      typing 1s steps(10, end) forwards,
-      blink 1s infinite;
-}
-
-.typed2{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    width: 0;
-    animation: 
-      typing 2s steps(25, end) forwards,
-      blink 1s infinite;
-    animation-delay: 1s;
-}
-
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 101% }
-  }
-
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
-  }
