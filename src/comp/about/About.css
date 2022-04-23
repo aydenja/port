@@ -1,3 +1,109 @@
-.about {
-    color: black;
+.hello {
+    width: fit-content;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+    
 }
+
+
+ul li {
+    display: inline-block;
+}
+
+.postli {
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.seem {
+    width: 70%;
+    text-align: center;
+    font-size: 1.5rem;
+    vertical-align: center;
+}
+
+.leb {
+    width: 100%;
+    text-align: center;
+}
+.leb img {
+    width: 30%;
+}
+
+.post {
+    width: 100%;
+}
+
+.r60 {
+    width: 60%;
+}
+
+.socials {
+    vertical-align: top;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+}
+
+
+p{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 25px;
+}
+.movies{
+    font-size: 4rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.atext {
+    padding: 1rem;
+    padding-left: 3rem;
+    display: block;
+    margin: auto;
+}
+
+.hello .typed1 {
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .hello .typed1 {
+        font-size: 75px;
+    }
+
+    .hello {
+        width: fit-content;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        
+        
+    }
+}
+
+.typed1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+      typing 1s steps(10, end) forwards,
+      blink 1s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 101% }
+  }
+
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }

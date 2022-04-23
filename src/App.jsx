@@ -3,6 +3,7 @@ import Header from './comp/header/Header'
 import About from './comp/about/About'
 import Part from './comp/particles/Part';
 import Hello from './comp/hello/Hello';
+import Footer from './comp/footer/Footer';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
@@ -25,6 +26,7 @@ export const App = () => {
         <Route path='/about' element={<About/>} />
     </Routes>
     </Router>
+    <Footer/>
     </>
   )
 }

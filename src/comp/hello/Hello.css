@@ -1,18 +1,38 @@
 .hello {
     width: fit-content;
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     
     
 }
+
 .hello .typed1 {
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .hello .typed2 {
-    font-size: 55px;
-}
+    font-size: 20px;
 
+}
+    
+@media only screen and (min-width: 768px) {
+
+    .hello .typed1 {
+        font-size: 75px;
+    }
+
+    .hello .typed2 {
+        font-size: 55px;
+    }
+
+    .hello {
+        width: fit-content;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        
+        
+    }
+}
 .work{
     padding-top: 4rem;
     padding-left: 3rem;
@@ -48,12 +68,15 @@ hr.solidb {
     padding-top: 4rem;
 }
 
-.projul li {
-    text-align: center;
-    display: inline-block;
-    max-width: 50%;
-    vertical-align: middle;
+@media only screen and (min-width: 768px) {
+    .projul li {
+        text-align: center;
+        display: inline-block;
+        max-width: 50%;
+        vertical-align: middle;
+    }
 }
+
 
 .text{
     text-align: left;
