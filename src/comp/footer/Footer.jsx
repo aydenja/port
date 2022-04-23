@@ -21,7 +21,7 @@ const Footer = () => {
             <ul class="social-icons">
               <li><a class="linkedin" href="https://www.linkedin.com/in/ayden-albertsen-a33222213/"><FaLinkedinIn/></a></li>
               <li><a class="letterb" href="https://letterboxd.com/aydenja/"><i class="fa fa-dribbble"><BiCameraMovie/></i></a></li>
-              <li><a class="gh" href="https://github.com/aydenja"><i class="fa fa-linkedin"><BsGithub/></i></a></li> 
+              <li><a class="gh" href="https://github.com/aydenja/port"><i class="fa fa-linkedin"><BsGithub/></i></a></li> 
             </ul>
           </div>
         </div>

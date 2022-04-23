@@ -1,6 +1,7 @@
 # Ayden Albertsen Portfolio Website
 - This website was built using the React framework
 - Hosted on [aydenja.com](https://www.aydenja.com)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/e4cdc70b-98ea-4370-86a1-f2360f6c764f/deploy-status)](https://app.netlify.com/sites/mellifluous-gumdrop-737f9b/deploys)
 
 ## Available Scripts
 
