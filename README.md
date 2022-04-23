@@ -1,6 +1,6 @@
 # Ayden Albertsen Portfolio Website
 - This website was built using the React framework
-- Hosted on [I'm an inline-style link](https://www.aydenja.com)
+- Hosted on [aydenja.com](https://www.aydenja.com)
 
 ## Available Scripts
 
