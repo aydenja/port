@@ -34,19 +34,19 @@ const About = () => {
           <h1 class = "movies">Movies I like...</h1>
           <ul>
           <li class = "postli">
-            <img class = {"post"} src={require('./shining.png')}  alt = {"NA"}/>
+            <img class = {"post"} src={require('./shining Large.jpeg')}  alt = {"NA"}/>
             <h2>★★★★★</h2>
           </li>
           <li class = "postli">
-            <img class = {"post"} src={require('./sa.png')}  alt = {"NA"}/>
+            <img class = {"post"} src={require('./sa Large.jpeg')}  alt = {"NA"}/>
             <h2>★★★★★</h2>
           </li>
           <li class = "postli">
-            <img class = {"post"} src={require('./mk.png')}  alt = {"NA"}/>
+            <img class = {"post"} src={require('./mk Large.jpeg')}  alt = {"NA"}/>
             <h2>★★★★★</h2>
           </li>
           <li class = "postli">
-            <img class = {"post"} src={require('./yiyi.png')}  alt = {"NA"}/>
+            <img class = {"post"} src={require('./yiyi Large.jpeg')}  alt = {"NA"}/>
             <h2>★★★★★</h2>
           </li>
         </ul>
