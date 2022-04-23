@@ -105,7 +105,7 @@ const Hello = () => {
                     </li>
                     <li>
                         <p class = {"text"}>
-                            This was game was made for an Advanced Programming Techniques class, the goal of the project was to learn about managed programming languages as well as being able to implement and build programs from a given specification. The majority of the class was spent implementing a rogue-like Pokémon inspired game featuring procedurally generated maps, Pokémon battles, as well as catching and training Pokémon.
+                            This web app was made for a user interfaces class. The user can create an account, login, and track their current and future assignments. This project was developed in a group of four people. My contribution to this project included configuring a MySQL server to store login information and user data as well as configuring a nginx server to host the site on. I also wrote the backend code that retrieves data from the MySQL server and sends it to the client using NodeJS.
                             <br/><br/>
                             (Click image to see source code)
                         </p>
