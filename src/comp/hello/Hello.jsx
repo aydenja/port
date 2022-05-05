@@ -101,7 +101,7 @@ const Hello = () => {
                 <br/>
                 <ul class = {"projul"}>
                     <li class = {"img2c"}>
-                    <a href='https://github.com/aydenja/poke327' rel="noopener noreferrer" target="_blank"> <img class = {"img2"} src={require('./at.png')}  alt = {"NA"}/></a>
+                    <a href='https://github.com/aydenja/assignmentTracker' rel="noopener noreferrer" target="_blank"> <img class = {"img2"} src={require('./at.png')}  alt = {"NA"}/></a>
                     </li>
                     <li>
                         <p class = {"text"}>
