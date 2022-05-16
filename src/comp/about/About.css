@@ -107,3 +107,17 @@ p{
     from { border-color: transparent }
     to { border-color: orange; }
   }
+
+
+.current{
+    width: 25%;
+}
+.current p{
+    background-color: transparent;
+    text-align: center;
+}
+
+.current p img {
+    background-color: transparent;
+    width: 100%;
+}

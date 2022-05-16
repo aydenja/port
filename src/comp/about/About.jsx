@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import FadeIn from 'react-fade-in';
+import Rssfetch from './rssfetch/rssfetch';
 
 const About = () => {
   return (
@@ -54,7 +55,7 @@ const About = () => {
             <a href='https://letterboxd.com/aydenja/'><img src="https://a.ltrbxd.com/logos/letterboxd-logo-h-neg-rgb.svg" alt="NA" /></a>
           </div>
         </div>
-        
+        <Rssfetch/>
       </FadeIn>
     </div>
   )
