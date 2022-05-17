@@ -8,7 +8,7 @@
 
 
 ul li {
-    display: inline-block;
+    display: inline;
 }
 
 .postli {
@@ -33,11 +33,16 @@ ul li {
 }
 
 .post {
-    width: 100%;
+
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .r60 {
-    width: 60%;
+    width: 100%;
 }
 
 .socials {
@@ -57,14 +62,13 @@ p{
     border-radius: 25px;
 }
 .movies{
-    font-size: 4rem;
+    font-size: 2.5rem;
     padding: 2rem;
     padding-top: 5rem;
     text-align: center;
 }
 .atext {
     padding: 1rem;
-    padding-left: 3rem;
     display: block;
     margin: auto;
 }
@@ -119,5 +123,56 @@ p{
 
 .current p img {
     background-color: transparent;
-    width: 100%;
+    width: 90%;
+}
+
+hr.solidc {
+    border-top: 3px solid white;
+    width: 80%;
+    margin: auto;
+}
+
+.cimg p {
+    padding-top: 0px;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .r60 {
+        width: 60%;
+    }
+
+    .atext {
+        padding: 1rem;
+        padding-left: 3rem;
+        display: block;
+        margin: auto;
+    }
+
+    ul li {
+        display: inline-block;
+        
+    }
+
+    hr.solidc {
+        display: none;
+    }
+
+    .movies{
+        font-size: 4rem;
+        padding: 2rem;
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+    .current p img {
+        background-color: transparent;
+        width: 100%;
+    }
+
 }

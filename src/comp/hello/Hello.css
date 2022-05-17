@@ -14,6 +14,10 @@
     font-size: 20px;
 
 }
+
+.work{
+    padding: 1rem;
+}
     
 @media only screen and (min-width: 768px) {
 
@@ -32,11 +36,13 @@
         
         
     }
+
+    .work{
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
 }
-.work{
-    padding-top: 4rem;
-    padding-left: 3rem;
-}
+
 
 
 hr.solid {

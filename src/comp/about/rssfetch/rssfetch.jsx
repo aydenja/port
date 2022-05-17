@@ -28,7 +28,8 @@ const Rssfetch = () => {
         return (
             <li class = "current">
             <p><a href={item.link}>{item.title}</a></p>
-            <div dangerouslySetInnerHTML={{ __html: item.img }} />
+            <div class = "cimg" dangerouslySetInnerHTML={{ __html: item.img }} />
+            <hr class="solidc"></hr>
             </li>
         );
       })}
