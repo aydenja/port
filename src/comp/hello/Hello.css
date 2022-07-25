@@ -6,6 +6,10 @@
     
 }
 
+.work h1{
+    font-size: 30px;
+}
+
 .hello .typed1 {
     font-size: 50px;
 }
@@ -41,6 +45,10 @@
         padding-top: 4rem;
         padding-left: 3rem;
     }
+
+    .work h1{
+        font-size: 50px;
+    }
 }
 
 
@@ -60,9 +68,7 @@ hr.solidb {
 .work *{
     text-align: center;
 }
-.work h1{
-    font-size: 50px;
-}
+
 
 .skills li {
     display: inline-block;
