@@ -4,12 +4,16 @@ const Rssfetch = () => {
     
   const [items, setItems] = useState([]);
 
-  
+  function b64_to_utf8( str ) {
+    return decodeURIComponent(escape(window.atob( str )));
+  }
 
   const getRss = async (e) => {
     const res = await fetch(`https://api.allorigins.win/get?url=https://letterboxd.com/aydenja/rss/`);
     const { contents } = await res.json();
-    const feed = new window.DOMParser().parseFromString(contents, "text/xml");
+    const split = contents.split("base64,");
+    const final = b64_to_utf8(split[1]);
+    const feed = new window.DOMParser().parseFromString(final, "text/xml");
     const items = feed.querySelectorAll("item");
     const feedItems = [...items].map((el) => ({
       link: el.querySelector("link").innerHTML,
